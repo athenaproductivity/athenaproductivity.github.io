@@ -89,3 +89,8 @@ button {
   z-index: -1;
   opacity: 0.9; /* Optional: adjust for visibility */
 }
+main, .content, .hero {
+  position: relative;
+  z-index: 1;
+}
+

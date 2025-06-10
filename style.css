@@ -65,7 +65,7 @@ button {
     flex-direction: column;
     align-items: center; /* Center image */
     justify-content: start;
-    padding-top: 10vh;
+    padding-top: 10px;
 }
 
 #main {
@@ -81,7 +81,7 @@ button {
 }
 
 #bg-video {
-  max-width: 70vw;
+  max-width: 90vw;
   height: auto;
   object-fit: cover;
   margin-bottom: 5vh;

@@ -64,7 +64,8 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center; /* Center image */
-    justify-content: center;
+    justify-content: start;
+    padding-top: 10vh;
 }
 
 #main {
@@ -80,17 +81,8 @@ button {
 }
 
 #bg-video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100vw;
-  min-height: 100vh;
+  max-width: 70vw;
+  height: auto;
   object-fit: cover;
-  z-index: -1;
-  opacity: 0.9; /* Optional: adjust for visibility */
+  margin-bottom: 5vh;
 }
-main, .content, .hero {
-  position: relative;
-  z-index: 1;
-}
-

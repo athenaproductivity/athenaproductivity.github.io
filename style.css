@@ -86,3 +86,10 @@ button {
   object-fit: cover;
   margin-bottom: 5vh;
 }
+
+.video {
+    width: 90%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    max-width: 100%;
+}

@@ -81,7 +81,7 @@ button {
 }
 
 #bg-video {
-  max-width: 90vw;
+  width: 90%;
   height: auto;
   object-fit: cover;
   margin-bottom: 5vh;
@@ -91,5 +91,5 @@ button {
     width: 90%;
     aspect-ratio: 16 / 9;
     border: none;
-    max-width: 100%;
+    margin-bottom: 5vh;
 }
